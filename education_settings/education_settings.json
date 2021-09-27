@@ -26,7 +26,8 @@
   "portal_title",
   "description",
   "management",
-  "bbb_secret"
+  "bbb_secret",
+  "semaine"
  ],
  "fields": [
   {
@@ -151,11 +152,18 @@
    "fieldname": "bbb_secret",
    "fieldtype": "Data",
    "label": "bbb-secret"
+  },
+  {
+   "default": "A",
+   "fieldname": "semaine",
+   "fieldtype": "Select",
+   "label": "Semaine",
+   "options": "A\nB"
   }
  ],
  "issingle": 1,
  "links": [],
- "modified": "2021-09-02 11:44:47.725868",
+ "modified": "2021-09-27 15:03:24.300620",
  "modified_by": "Administrator",
  "module": "Education",
  "name": "Education Settings",
